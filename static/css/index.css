@@ -155,3 +155,20 @@ body {
   #interpolation-image-wrapper img {
     border-radius: 5px;
   }
+  
+  .videos-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .video-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .video-row video {
+    width: 45%;
+    border-radius: 8px;
+  }
